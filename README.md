@@ -22,6 +22,7 @@ Packages
 * `procps`
 * `psmisc`
 * `tmux`
+* `toilet`
 * `unzip`
 * `wget`
 * `zip`
