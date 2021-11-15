@@ -9,6 +9,7 @@ Packages
 * `colordiff`
 * `cowsay`
 * `figlet`
+* `fish`
 * `git`
 * `gnupg`
 * `gnupg2`
@@ -20,6 +21,7 @@ Packages
 * `neovim`
 * `procps`
 * `psmisc`
+* `tmux`
 * `unzip`
 * `wget`
 * `zip`
