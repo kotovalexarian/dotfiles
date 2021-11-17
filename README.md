@@ -21,6 +21,7 @@ Packages
 * `neovim`
 * `procps`
 * `psmisc`
+* `ranger`
 * `tmux`
 * `toilet`
 * `unzip`
