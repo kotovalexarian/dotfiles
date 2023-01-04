@@ -30,6 +30,11 @@ set nobackup
 set nowb
 set noswapfile
 
+" Line length and wrapping
+set nowrap
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
+
 set number
 set relativenumber
 map <C-t> :set relativenumber!<CR>
@@ -50,3 +55,25 @@ map <C-l> <C-W>l
 
 " Always show the status line
 set laststatus=2
+
+" Keyboard layouts
+let s:english_upper  = 'QWERTYUIOPASDFGHJKLZXCVBNM'
+let s:russian_upper  = 'ЙЦУКЕНГШЩЗФЫВАПРОЛДЯЧСМИТЬ'
+let s:georgian_upper = 'QჭEღთYUIOPAშDFGHჟKLძXჩVBNM'
+let s:english_lower  = 'qwertyuiopasdfghjklzxcvbnm'
+let s:russian_lower  = 'йцукенгшщзфывапролдячсмить'
+let s:georgian_lower = 'ქწერტყუიოპასდფგჰჯკლზხცვბნმ'
+let s:russian_upper_map  = s:russian_upper  . ';' . s:english_upper
+let s:georgian_upper_map = s:georgian_upper . ';' . s:english_upper
+let s:russian_lower_map  = s:russian_lower  . ';' . s:english_lower
+let s:georgian_lower_map = s:georgian_lower . ';' . s:english_lower
+let s:langmap = s:russian_upper_map . ',' . s:georgian_upper_map . ',' . s:russian_lower_map . ',' . s:georgian_lower_map
+let &langmap = s:langmap
+
+autocmd BufNewFile,BufRead *.tsx set syntax=typescript
+
+autocmd BufNewFile,BufRead /home/kotovalexarian/dotfiles/dwm/*                           set noexpandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/PolytreeDE/polytreewm/src/* set noexpandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/friflex/bristol_backend/*          set colorcolumn=135
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.c                  set expandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.h                  set expandtab tabstop=4 shiftwidth=4
