@@ -56,6 +56,14 @@ map <C-l> <C-W>l
 " Always show the status line
 set laststatus=2
 
+" Moving lines
+nnoremap <c-j> :m .+1<CR>==
+nnoremap <c-k> :m .-2<CR>==
+inoremap <c-j> <Esc>:m .+1<CR>==gi
+inoremap <c-k> <Esc>:m .-2<CR>==gi
+vnoremap <c-j> :m '>+1<CR>gv=gv
+vnoremap <c-k> :m '<-2<CR>gv=gv
+
 " Keyboard layouts
 let s:english_upper  = 'QWERTYUIOPASDFGHJKLZXCVBNM'
 let s:russian_upper  = 'ЙЦУКЕНГШЩЗФЫВАПРОЛДЯЧСМИТЬ'
@@ -70,10 +78,10 @@ let s:georgian_lower_map = s:georgian_lower . ';' . s:english_lower
 let s:langmap = s:russian_upper_map . ',' . s:georgian_upper_map . ',' . s:russian_lower_map . ',' . s:georgian_lower_map
 let &langmap = s:langmap
 
-autocmd BufNewFile,BufRead *.tsx set syntax=typescript
+autocmd BufNewFile,BufRead *.tsx   set syntax=typescript
+autocmd BufNewFile,BufRead *.repub set syntax=markdown
 
-autocmd BufNewFile,BufRead /home/kotovalexarian/dotfiles/dwm/*                           set noexpandtab tabstop=4 shiftwidth=4
 autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/PolytreeDE/polytreewm/src/* set noexpandtab tabstop=4 shiftwidth=4
-autocmd BufNewFile,BufRead /home/kotovalexarian/repos/friflex/bristol_backend/*          set colorcolumn=135
-autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.c                  set expandtab tabstop=4 shiftwidth=4
-autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.h                  set expandtab tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.c                  set expandtab   tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/tailix/*.h                  set expandtab   tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead /home/kotovalexarian/repos/global/leqsikoni/database/*.sql    set expandtab   tabstop=4 shiftwidth=4
