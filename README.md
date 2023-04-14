@@ -65,6 +65,7 @@ Packages
 * `media-gfx/imagemagick`
 * `media-sound/pulseaudio`
 * `media-video/ffmpeg`
+* `media-video/vlc`
 * `net-im/discord`
 * `net-im/element-desktop-bin`
 * `net-im/slack`
