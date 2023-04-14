@@ -9,6 +9,7 @@ Packages
 |-------------------|----------------------|
 | `bash-completion` |                      |
 | `build-essential` |                      |
+| `cmake`           | `dev-util/cmake`     |
 | `curl`            | `net-misc/curl`      |
 | `colordiff`       | `app-misc/colordiff` |
 | `cowsay`          | `games-misc/cowsay`  |
@@ -21,8 +22,10 @@ Packages
 | `htop`            | `sys-process/htop`   |
 | `less`            | `sys-apps/less`      |
 | `lolcat`          |                      |
+| `meson`           | `dev-util/meson`     |
 | `neofetch`        | `app-misc/neofetch`  |
 | `neovim`          | `app-editors/neovim` |
+| `ninja-build`     | `dev-util/ninja`     |
 | `procps`          | `sys-process/procps` |
 | `psmisc`          | `sys-process/psmisc` |
 | `ranger`          |                      |
@@ -75,6 +78,9 @@ Packages
 * `dev-lang/ruby`
 * `dev-lang/rust-bin`
 * `dev-python/python-pam`
+* `dev-util/cmake`
+* `dev-util/meson`
+* `dev-util/ninja`
 * `dev-vcs/git`
 * `dev-vcs/git-lfs`
 * `games-action/minecraft-launcher`
