@@ -16,8 +16,7 @@ Packages
 | `fish`            | `app-shells/fish`    |
 | `git`             | `dev-vcs/git`        |
 | `git-lfs`         | `dev-vcs/git-lfs`    |
-| `gnupg`           |                      |
-| `gnupg2`          |                      |
+| `gnupg2`          | `app-crypt/gnupg`    |
 | `gzip`            | `app-arch/gzip`      |
 | `htop`            | `sys-process/htop`   |
 | `less`            | `sys-apps/less`      |
@@ -60,6 +59,7 @@ Packages
 * `app-arch/gzip`
 * `app-arch/unzip`
 * `app-arch/zip`
+* `app-crypt/gnupg`
 * `app-editors/neovim`
 * `app-editors/vim`
 * `app-misc/colordiff`
