@@ -46,6 +46,7 @@ Packages
 * `app-misc/tmux`
 * `app-misc/toilet`
 * `app-portage/eix`
+* `app-portage/genlop`
 * `app-portage/gentoolkit`
 * `app-portage/mirrorselect`
 * `app-shells/fish`
