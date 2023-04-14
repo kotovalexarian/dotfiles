@@ -50,6 +50,7 @@ Packages
 * `app-portage/mirrorselect`
 * `app-shells/fish`
 * `dev-lang/ruby`
+* `dev-lang/rust-bin`
 * `dev-python/python-pam`
 * `dev-vcs/git`
 * `dev-vcs/git-lfs`
