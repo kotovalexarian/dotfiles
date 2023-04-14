@@ -147,3 +147,27 @@ rc-update add NetworkManager  default
 rc-update add sysklogd        default
 rc-update add udev            sysinit
 ```
+
+```
+$ sudo eselect editor list
+Available targets for the EDITOR variable:
+  [1]   ex
+  [2]   vi *
+  [ ]   (free form)
+
+$ sudo eselect editor set 2
+
+$ sudo eselect visual list
+Available targets for the VISUAL variable:
+  [1]   vi *
+  [ ]   (free form)
+
+$ sudo eselect visual set 1
+
+$ sudo eselect vi list
+Available vi implementations:
+  [1]   vim
+  [2]   nvim *
+
+$ sudo eselect vi set 2
+```
