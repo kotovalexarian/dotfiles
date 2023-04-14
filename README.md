@@ -1,6 +1,10 @@
 Packages
 --------
 
+### Common
+
+#### Non-graphical
+
 | Debian            | Gentoo               |
 |-------------------|----------------------|
 | `bash-completion` |                      |
@@ -23,13 +27,31 @@ Packages
 | `procps`          | `sys-process/procps` |
 | `psmisc`          | `sys-process/psmisc` |
 | `ranger`          |                      |
+| `sudo`            | `app-admin/sudo`     |
 | `tmux`            | `app-misc/tmux`      |
 | `toilet`          | `app-misc/toilet`    |
 | `unzip`           | `app-arch/unzip`     |
 | `wget`            | `net-misc/wget`      |
+|                   | `net-misc/zerotier`  |
 | `zip`             | `app-arch/zip`       |
 
-### Gentoo
+#### Graphical
+
+| Debian            | Gentoo                        |
+|-------------------|-------------------------------|
+| `keepassxc`       | `app-admin/keepassxc`         |
+| `thunderbird`     | `mail-client/thunderbird-bin` |
+| `vlc`             | `media-video/vlc`             |
+|                   | `net-im/discord`              |
+|                   | `net-im/element-desktop-bin`  |
+|                   | `net-im/slack`                |
+|                   | `net-im/telegram-desktop-bin` |
+| `chromium`        | `www-client/chromium-bin`     |
+| `firefox`         | `www-client/firefox-bin`      |
+
+### Distro-specific
+
+#### Gentoo
 
 * `app-admin/keepassxc`
 * `app-admin/sudo`
