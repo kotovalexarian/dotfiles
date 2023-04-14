@@ -64,7 +64,6 @@ Packages
 * `app-arch/zip`
 * `app-crypt/gnupg`
 * `app-editors/neovim`
-* `app-editors/vim`
 * `app-misc/colordiff`
 * `app-misc/figlet`
 * `app-misc/neofetch`
