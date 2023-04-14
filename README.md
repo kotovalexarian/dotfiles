@@ -28,7 +28,7 @@ Packages
 | `ninja-build`     | `dev-util/ninja`     |
 | `procps`          | `sys-process/procps` |
 | `psmisc`          | `sys-process/psmisc` |
-| `ranger`          |                      |
+| `ranger`          | `app-misc/ranger`    |
 | `sudo`            | `app-admin/sudo`     |
 | `tmux`            | `app-misc/tmux`      |
 | `toilet`          | `app-misc/toilet`    |
@@ -68,6 +68,7 @@ Packages
 * `app-misc/colordiff`
 * `app-misc/figlet`
 * `app-misc/neofetch`
+* `app-misc/ranger`
 * `app-misc/tmux`
 * `app-misc/toilet`
 * `app-portage/eix`
