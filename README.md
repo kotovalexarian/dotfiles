@@ -41,16 +41,16 @@ Packages
 
 | Debian            | Gentoo                        |
 |-------------------|-------------------------------|
+| `chromium`        | `www-client/chromium-bin`     |
+| `firefox`         | `www-client/firefox-bin`      |
 | `keepassxc`       | `app-admin/keepassxc`         |
+| `obs-studio`      | `media-video/obs-studio`      |
 | `thunderbird`     | `mail-client/thunderbird-bin` |
 | `vlc`             | `media-video/vlc`             |
 |                   | `net-im/discord`              |
 |                   | `net-im/element-desktop-bin`  |
 |                   | `net-im/slack`                |
 |                   | `net-im/telegram-desktop-bin` |
-| `chromium`        | `www-client/chromium-bin`     |
-| `firefox`         | `www-client/firefox-bin`      |
-| `obs-studio`      | `media-video/obs-studio`      |
 
 ### Distro-specific
 
@@ -94,6 +94,7 @@ Packages
 * `media-gfx/imagemagick`
 * `media-sound/pulseaudio`
 * `media-video/ffmpeg`
+* `media-video/obs-studio`
 * `media-video/vlc`
 * `net-im/discord`
 * `net-im/element-desktop-bin`
