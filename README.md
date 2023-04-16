@@ -50,6 +50,7 @@ Packages
 |                   | `net-im/telegram-desktop-bin` |
 | `chromium`        | `www-client/chromium-bin`     |
 | `firefox`         | `www-client/firefox-bin`      |
+| `obs-studio`      | `media-video/obs-studio`      |
 
 ### Distro-specific
 
