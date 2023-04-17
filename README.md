@@ -56,82 +56,14 @@ Packages
 
 #### Gentoo
 
-* `app-admin/keepassxc`
-* `app-admin/sudo`
-* `app-admin/sysklogd`
+Those packages are part of the system, so they are not in `/var/lib/portage/world`:
+
 * `app-arch/bzip2`
 * `app-arch/gzip`
-* `app-arch/unzip`
-* `app-arch/zip`
-* `app-crypt/gnupg`
-* `app-editors/neovim`
-* `app-misc/colordiff`
-* `app-misc/figlet`
-* `app-misc/neofetch`
-* `app-misc/ranger`
-* `app-misc/tmux`
-* `app-misc/toilet`
-* `app-portage/eix`
-* `app-portage/genlop`
-* `app-portage/gentoolkit`
-* `app-portage/mirrorselect`
-* `app-shells/fish`
-* `dev-lang/ruby`
-* `dev-lang/rust-bin`
-* `dev-python/python-pam`
-* `dev-util/cmake`
-* `dev-util/meson`
-* `dev-util/ninja`
-* `dev-vcs/git`
-* `dev-vcs/git-lfs`
-* `games-action/minecraft-launcher`
-* `games-misc/cowsay`
-* `gnome-extra/nm-applet`
-* `gui-libs/gtk`
-* `mail-client/thunderbird-bin`
-* `mate-base/mate`
-* `media-fonts/fonts-meta`
-* `media-gfx/imagemagick`
-* `media-sound/pulseaudio`
-* `media-video/ffmpeg`
-* `media-video/libva-utils`
-* `media-video/obs-studio`
-* `media-video/vlc`
-* `net-im/discord`
-* `net-im/element-desktop-bin`
-* `net-im/slack`
-* `net-im/telegram-desktop-bin`
-* `net-misc/chrony`
-* `net-misc/curl`
-* `net-misc/networkmanager`
-* `net-misc/openssh`
 * `net-misc/wget`
-* `net-misc/zerotier`
 * `sys-apps/less`
-* `sys-apps/mlocate`
-* `sys-auth/polkit`
-* `sys-block/parted`
-* `sys-boot/grub`
-* `sys-fs/dosfstools`
-* `sys-fs/udev`
-* `sys-fs/udisks`
-* `sys-kernel/gentoo-kernel-bin`
-* `sys-kernel/installkernel-gentoo`
-* `sys-kernel/linux-firmware`
-* `sys-power/upower`
-* `sys-process/cronie`
-* `sys-process/htop`
 * `sys-process/procps`
 * `sys-process/psmisc`
-* `www-client/chromium-bin`
-* `www-client/firefox-bin`
-* `x11-base/xorg-server`
-* `x11-libs/libnotify`
-* `x11-misc/colord`
-* `x11-misc/lightdm`
-* `x11-themes/mate-icon-theme`
-* `x11-themes/mate-icon-theme-faenza`
-* `x11-themes/mate-themes`
 
 
 
@@ -151,7 +83,7 @@ rc-update add udev            sysinit
 ```
 
 ```
-$ sudo eselect editor list
+$ eselect editor list
 Available targets for the EDITOR variable:
   [1]   ex
   [2]   vi *
@@ -159,17 +91,25 @@ Available targets for the EDITOR variable:
 
 $ sudo eselect editor set 2
 
-$ sudo eselect visual list
+$ eselect visual list
 Available targets for the VISUAL variable:
   [1]   vi *
   [ ]   (free form)
 
 $ sudo eselect visual set 1
 
-$ sudo eselect vi list
+$ eselect vi list
 Available vi implementations:
   [1]   vim
   [2]   nvim *
 
 $ sudo eselect vi set 2
+
+$ eselect pager list
+Available targets for the PAGER variable:
+  [1]   less *
+  [2]   more
+  [ ]   (free form)
+
+$ sudo eselect pager set 1
 ```
