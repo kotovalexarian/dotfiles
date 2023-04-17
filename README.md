@@ -94,6 +94,7 @@ Packages
 * `media-gfx/imagemagick`
 * `media-sound/pulseaudio`
 * `media-video/ffmpeg`
+* `media-video/libva-utils`
 * `media-video/obs-studio`
 * `media-video/vlc`
 * `net-im/discord`
