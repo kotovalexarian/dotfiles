@@ -56,7 +56,8 @@ Packages
 
 #### Gentoo
 
-Those packages are part of the system, so they are not in `/var/lib/portage/world`:
+Those packages are part of the system,
+so they are not in `/var/lib/portage/world`:
 
 * `app-arch/bzip2`
 * `app-arch/gzip`
