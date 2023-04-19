@@ -27,6 +27,7 @@ dev-vcs/git
 dev-vcs/git-lfs
 games-action/minecraft-launcher
 games-misc/cowsay
+gnome-base/gnome-keyring
 gnome-extra/nm-applet
 gui-libs/gtk
 mail-client/thunderbird-bin
