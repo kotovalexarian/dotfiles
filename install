@@ -1,0 +1,71 @@
+#!/bin/sh
+
+# usage:
+#
+# sudo ./install
+# sudo ./install gentoo
+#
+# env vars:
+#
+# VERSION_CONTROL
+# SIMPLE_BACKUP_SUFFIX
+#
+# see man install(1)
+
+set -eu
+
+REPO="$(dirname "$(realpath "$0")")"
+
+PREFIX="${1:-''}"
+
+install_file() {
+    owner="$1"
+    group="$2"
+    mode="$3"
+    path="$4"
+    prefix="$5"
+
+    echo install -b -o "$owner" -g "$group" -m "$mode" "$REPO/$prefix$path" "$path"
+         install -b -o "$owner" -g "$group" -m "$mode" "$REPO/$prefix$path" "$path"
+}
+
+install_dir() {
+    owner="$1"
+    group="$2"
+    mode="$3"
+    path="$4"
+
+    echo install -o "$owner" -g "$group" -m "$mode" -d "$path"
+         install -o "$owner" -g "$group" -m "$mode" -d "$path"
+}
+
+install_file root root    644 '/etc/tmux.conf'                            common
+echo
+install_dir  root root    755 '/etc/vim'
+install_file root root    644 '/etc/vim/vimrc.local'                      common
+echo
+install_dir  root root    755 '/etc/fish'
+install_dir  root root    755 '/etc/fish/conf.d'
+install_dir  root root    755 '/etc/fish/functions'
+install_file root root    644 '/etc/fish/config.fish'                     common
+install_file root root    644 '/etc/fish/conf.d/rvm.fish'                 common
+install_file root root    644 '/etc/fish/functions/fish_prompt.fish'      common
+install_file root root    644 '/etc/fish/functions/prompt_user_host.fish' common
+install_file root root    644 '/etc/fish/functions/rvm.fish'              common
+
+if [ "$PREFIX" = 'gentoo' ]; then
+echo
+install_file root root    644 '/etc/conf.d/display-manager'               gentoo
+install_file root root    644 '/etc/env.d/90xsession'                     gentoo
+install_file root portage 644 '/var/lib/portage/world'                    gentoo
+echo
+install_dir  root root    755 '/etc/portage/package.accept_keywords'
+install_dir  root root    755 '/etc/portage/package.mask'
+install_dir  root root    755 '/etc/portage/package.use'
+install_file root root    644 '/etc/portage/make.conf'                    gentoo
+install_file root root    644 '/etc/portage/package.license'              gentoo
+install_file root root    644 '/etc/portage/package.accept_keywords/package.accept_keywords' gentoo
+install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
+install_file root root    644 '/etc/portage/package.use/toolchains'       gentoo
+install_file root root    644 '/etc/portage/package.use/zz-autounmask'    gentoo
+fi
