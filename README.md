@@ -84,6 +84,18 @@ rc-update add udev            sysinit
 ```
 
 ```
+$ sudo eselect locale list
+Available targets for the LANG variable:
+  [1]   C
+  [2]   C.utf8
+  [3]   en_US
+  [4]   en_US.iso88591
+  [5]   en_US.utf8 *
+  [6]   POSIX
+  [ ]   (free form)
+
+$ sudo eselect locale set 5
+
 $ eselect editor list
 Available targets for the EDITOR variable:
   [1]   ex
