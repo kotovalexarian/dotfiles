@@ -24,7 +24,6 @@ Packages
 | `lolcat`          |                      |
 | `meson`           | `dev-util/meson`     |
 | `neofetch`        | `app-misc/neofetch`  |
-| `neovim`          | `app-editors/neovim` |
 | `ninja-build`     | `dev-util/ninja`     |
 | `procps`          | `sys-process/procps` |
 | `psmisc`          | `sys-process/psmisc` |
@@ -33,6 +32,7 @@ Packages
 | `tmux`            | `app-misc/tmux`      |
 | `toilet`          | `app-misc/toilet`    |
 | `unzip`           | `app-arch/unzip`     |
+| `vim`             | `app-editors/vim`    |
 | `wget`            | `net-misc/wget`      |
 |                   | `net-misc/zerotier`  |
 | `zip`             | `app-arch/zip`       |
@@ -101,10 +101,9 @@ $ sudo eselect visual set 1
 
 $ eselect vi list
 Available vi implementations:
-  [1]   vim
-  [2]   nvim *
+  [1]   vim *
 
-$ sudo eselect vi set 2
+$ sudo eselect vi set 1
 
 $ eselect pager list
 Available targets for the PAGER variable:

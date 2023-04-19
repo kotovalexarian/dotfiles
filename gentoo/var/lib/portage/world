@@ -4,7 +4,7 @@ app-admin/sysklogd
 app-arch/unzip
 app-arch/zip
 app-crypt/gnupg
-app-editors/neovim
+app-editors/vim
 app-emulation/virtualbox-guest-additions
 app-misc/colordiff
 app-misc/figlet
