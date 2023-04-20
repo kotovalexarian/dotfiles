@@ -34,6 +34,7 @@ mail-client/thunderbird-bin
 mate-base/mate
 media-fonts/fonts-meta
 media-gfx/imagemagick
+media-libs/exiftool
 media-sound/pulseaudio
 media-video/ffmpeg
 media-video/libva-utils

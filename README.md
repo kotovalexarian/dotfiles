@@ -5,52 +5,53 @@ Packages
 
 #### Non-graphical
 
-| Debian            | Gentoo               |
-|-------------------|----------------------|
-| `bash-completion` |                      |
-| `build-essential` |                      |
-| `cmake`           | `dev-util/cmake`     |
-| `curl`            | `net-misc/curl`      |
-| `colordiff`       | `app-misc/colordiff` |
-| `cowsay`          | `games-misc/cowsay`  |
-| `figlet`          | `app-misc/figlet`    |
-| `fish`            | `app-shells/fish`    |
-| `git`             | `dev-vcs/git`        |
-| `git-lfs`         | `dev-vcs/git-lfs`    |
-| `gnupg2`          | `app-crypt/gnupg`    |
-| `gzip`            | `app-arch/gzip`      |
-| `htop`            | `sys-process/htop`   |
-| `less`            | `sys-apps/less`      |
-| `lolcat`          |                      |
-| `meson`           | `dev-util/meson`     |
-| `neofetch`        | `app-misc/neofetch`  |
-| `ninja-build`     | `dev-util/ninja`     |
-| `procps`          | `sys-process/procps` |
-| `psmisc`          | `sys-process/psmisc` |
-| `ranger`          | `app-misc/ranger`    |
-| `sudo`            | `app-admin/sudo`     |
-| `tmux`            | `app-misc/tmux`      |
-| `toilet`          | `app-misc/toilet`    |
-| `unzip`           | `app-arch/unzip`     |
-| `vim`             | `app-editors/vim`    |
-| `wget`            | `net-misc/wget`      |
-|                   | `net-misc/zerotier`  |
-| `zip`             | `app-arch/zip`       |
+| Debian                   | Gentoo                        |
+|--------------------------|-------------------------------|
+| `bash-completion`        |                               |
+| `build-essential`        |                               |
+| `cmake`                  | `dev-util/cmake`              |
+| `curl`                   | `net-misc/curl`               |
+| `colordiff`              | `app-misc/colordiff`          |
+| `cowsay`                 | `games-misc/cowsay`           |
+| `figlet`                 | `app-misc/figlet`             |
+| `fish`                   | `app-shells/fish`             |
+| `git`                    | `dev-vcs/git`                 |
+| `git-lfs`                | `dev-vcs/git-lfs`             |
+| `gnupg2`                 | `app-crypt/gnupg`             |
+| `gzip`                   | `app-arch/gzip`               |
+| `htop`                   | `sys-process/htop`            |
+| `less`                   | `sys-apps/less`               |
+| `libimage-exiftool-perl` | `media-libs/exiftool`         |
+| `lolcat`                 |                               |
+| `meson`                  | `dev-util/meson`              |
+| `neofetch`               | `app-misc/neofetch`           |
+| `ninja-build`            | `dev-util/ninja`              |
+| `procps`                 | `sys-process/procps`          |
+| `psmisc`                 | `sys-process/psmisc`          |
+| `ranger`                 | `app-misc/ranger`             |
+| `sudo`                   | `app-admin/sudo`              |
+| `tmux`                   | `app-misc/tmux`               |
+| `toilet`                 | `app-misc/toilet`             |
+| `unzip`                  | `app-arch/unzip`              |
+| `vim`                    | `app-editors/vim`             |
+| `wget`                   | `net-misc/wget`               |
+|                          | `net-misc/zerotier`           |
+| `zip`                    | `app-arch/zip`                |
 
 #### Graphical
 
-| Debian            | Gentoo                        |
-|-------------------|-------------------------------|
-| `chromium`        | `www-client/chromium-bin`     |
-| `firefox`         | `www-client/firefox-bin`      |
-| `keepassxc`       | `app-admin/keepassxc`         |
-| `obs-studio`      | `media-video/obs-studio`      |
-| `thunderbird`     | `mail-client/thunderbird-bin` |
-| `vlc`             | `media-video/vlc`             |
-|                   | `net-im/discord`              |
-|                   | `net-im/element-desktop-bin`  |
-|                   | `net-im/slack`                |
-|                   | `net-im/telegram-desktop-bin` |
+| Debian                   | Gentoo                        |
+|--------------------------|-------------------------------|
+| `chromium`               | `www-client/chromium-bin`     |
+| `firefox`                | `www-client/firefox-bin`      |
+| `keepassxc`              | `app-admin/keepassxc`         |
+| `obs-studio`             | `media-video/obs-studio`      |
+| `thunderbird`            | `mail-client/thunderbird-bin` |
+| `vlc`                    | `media-video/vlc`             |
+|                          | `net-im/discord`              |
+|                          | `net-im/element-desktop-bin`  |
+|                          | `net-im/slack`                |
+|                          | `net-im/telegram-desktop-bin` |
 
 ### Distro-specific
 
