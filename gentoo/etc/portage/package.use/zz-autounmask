@@ -1,8 +1,18 @@
 # required by app-shells/fish-3.4.0::gentoo
 >=dev-libs/libpcre2-10.42-r1 pcre32
+
 # required by x11-drivers/xf86-video-vmware-13.4.0::gentoo
 # required by x11-base/xorg-drivers-21.1-r2::gentoo[video_cards_vmware]
 # required by x11-base/xorg-server-21.1.8::gentoo[xorg]
 >=media-libs/mesa-22.3.7-r1 xa
+
 # required by www-client/chromium-bin-109.0.5414.74::gentoo
 >=sys-libs/zlib-1.2.13-r1 minizip
+
+# required by dev-util/gtk-doc-1.33.2::gentoo[python_single_target_python3_10]
+# required by mate-base/mate-desktop-1.26.0-r1::gentoo
+# required by mate-base/mate-panel-1.26.0-r1::gentoo
+# required by mate-base/mate-applets-1.26.0::gentoo
+# required by mate-base/mate-applets-meta-1.26.0::gentoo
+# required by mate-base/mate-1.26.0::gentoo[base]
+>=dev-python/pygments-2.15.1 python_targets_python3_10
