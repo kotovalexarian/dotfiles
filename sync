@@ -38,6 +38,7 @@ sync gentoo '/etc/portage/make.conf'
 sync gentoo '/etc/portage/package.license'
 sync gentoo '/etc/portage/package.accept_keywords/package.accept_keywords'
 sync gentoo '/etc/portage/package.mask/toolchains'
+sync gentoo '/etc/portage/package.use/pluma'
 sync gentoo '/etc/portage/package.use/toolchains'
 sync gentoo '/etc/portage/package.use/zz-autounmask'
 fi
