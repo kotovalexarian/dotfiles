@@ -11,9 +11,13 @@ REPO="$(dirname "$(realpath "$0")")"
 
 PREFIX="${1:-''}"
 
-sync() {
-    prefix="$1"
-    path="$2"
+install_dir() {
+    true
+}
+
+install_file() {
+    path="$4"
+    prefix="$5"
 
     if [ -f "$path" ]; then
         echo cp "$path" "$REPO/$prefix$path"
@@ -23,22 +27,4 @@ sync() {
     fi
 }
 
-sync common '/etc/tmux.conf'
-sync common '/etc/vim/vimrc.local'
-sync common '/etc/fish/config.fish'
-sync common '/etc/fish/conf.d/rvm.fish'
-sync common '/etc/fish/functions/fish_prompt.fish'
-sync common '/etc/fish/functions/prompt_user_host.fish'
-sync common '/etc/fish/functions/rvm.fish'
-
-if [ "$PREFIX" = 'gentoo' ]; then
-echo
-sync gentoo '/var/lib/portage/world'
-sync gentoo '/etc/portage/make.conf'
-sync gentoo '/etc/portage/package.license'
-sync gentoo '/etc/portage/package.accept_keywords/package.accept_keywords'
-sync gentoo '/etc/portage/package.mask/toolchains'
-sync gentoo '/etc/portage/package.use/pluma'
-sync gentoo '/etc/portage/package.use/toolchains'
-sync gentoo '/etc/portage/package.use/zz-autounmask'
-fi
+. "$REPO/files.sh"
