@@ -25,7 +25,6 @@ install_file root root    644 '/etc/portage/make.conf'                    gentoo
 install_file root root    644 '/etc/portage/package.license'              gentoo
 install_file root root    644 '/etc/portage/package.accept_keywords/package.accept_keywords' gentoo
 install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
-install_file root root    644 '/etc/portage/package.use/pluma'            gentoo
 install_file root root    644 '/etc/portage/package.use/toolchains'       gentoo
 install_file root root    644 '/etc/portage/package.use/zz-autounmask'    gentoo
 fi
