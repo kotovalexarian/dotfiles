@@ -43,7 +43,7 @@ media-video/vlc
 net-im/discord
 net-im/element-desktop-bin
 net-im/slack
-net-im/telegram-desktop-bin
+net-im/telegram-desktop
 net-misc/chrony
 net-misc/curl
 net-misc/networkmanager

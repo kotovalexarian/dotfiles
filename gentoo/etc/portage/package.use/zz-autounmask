@@ -16,3 +16,6 @@
 # required by mate-base/mate-applets-meta-1.26.0::gentoo
 # required by mate-base/mate-1.26.0::gentoo[base]
 >=dev-python/pygments-2.15.1 python_targets_python3_10
+
+# required by net-im/telegram-desktop-4.8.1-r2::gentoo
+>=media-video/ffmpeg-4.4.4-r2 vpx

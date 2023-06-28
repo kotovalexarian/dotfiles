@@ -51,7 +51,7 @@ Packages
 |                          | `net-im/discord`              |
 |                          | `net-im/element-desktop-bin`  |
 |                          | `net-im/slack`                |
-|                          | `net-im/telegram-desktop-bin` |
+|                          | `net-im/telegram-desktop`     |
 
 ### Distro-specific
 
