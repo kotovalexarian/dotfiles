@@ -5,54 +5,65 @@ Packages
 
 #### Non-graphical
 
-| Debian                   | Gentoo                        |
-|--------------------------|-------------------------------|
-|                          | `dev-util/ccache`             |
-| `bash-completion`        |                               |
-| `build-essential`        |                               |
-| `cmake`                  | `dev-util/cmake`              |
-| `curl`                   | `net-misc/curl`               |
-| `colordiff`              | `app-misc/colordiff`          |
-| `cowsay`                 | `games-misc/cowsay`           |
-| `figlet`                 | `app-misc/figlet`             |
-| `fish`                   | `app-shells/fish`             |
-| `git`                    | `dev-vcs/git`                 |
-| `git-lfs`                | `dev-vcs/git-lfs`             |
-| `gnupg2`                 | `app-crypt/gnupg`             |
-| `gzip`                   | `app-arch/gzip`               |
-| `htop`                   | `sys-process/htop`            |
-| `less`                   | `sys-apps/less`               |
-| `libimage-exiftool-perl` | `media-libs/exiftool`         |
-| `lolcat`                 |                               |
-| `meson`                  | `dev-util/meson`              |
-| `neofetch`               | `app-misc/neofetch`           |
-| `ninja-build`            | `dev-util/ninja`              |
-| `procps`                 | `sys-process/procps`          |
-| `psmisc`                 | `sys-process/psmisc`          |
-| `ranger`                 | `app-misc/ranger`             |
-| `sudo`                   | `app-admin/sudo`              |
-| `tmux`                   | `app-misc/tmux`               |
-| `toilet`                 | `app-misc/toilet`             |
-| `unzip`                  | `app-arch/unzip`              |
-| `vim`                    | `app-editors/vim`             |
-| `wget`                   | `net-misc/wget`               |
-|                          | `net-misc/zerotier`           |
-| `zip`                    | `app-arch/zip`                |
+| Debian                   | Gentoo                              |
+|--------------------------|-------------------------------------|
+|                          | `app-admin/sysklogd`                |
+|                          | `dev-util/ccache`                   |
+|                          | `net-misc/chronyd`                  |
+|                          | `net-misc/dhcpcd`                   |
+|                          | `net-misc/zerotier`                 |
+|                          | `sys-apps/mlocate`                  |
+|                          | `sys-process/cronie`                |
+| `bash-completion`        |                                     |
+| `build-essential`        |                                     |
+| `cmake`                  | `dev-util/cmake`                    |
+| `curl`                   | `net-misc/curl`                     |
+| `colordiff`              | `app-misc/colordiff`                |
+| `cowsay`                 | `games-misc/cowsay`                 |
+| `figlet`                 | `app-misc/figlet`                   |
+| `fish`                   | `app-shells/fish`                   |
+| `git`                    | `dev-vcs/git`                       |
+| `git-lfs`                | `dev-vcs/git-lfs`                   |
+| `gnupg2`                 | `app-crypt/gnupg`                   |
+| `gzip`                   | `app-arch/gzip`                     |
+| `htop`                   | `sys-process/htop`                  |
+| `less`                   | `sys-apps/less`                     |
+| `libimage-exiftool-perl` | `media-libs/exiftool`               |
+| `lolcat`                 |                                     |
+| `meson`                  | `dev-util/meson`                    |
+| `neofetch`               | `app-misc/neofetch`                 |
+| `ninja-build`            | `dev-util/ninja`                    |
+| `procps`                 | `sys-process/procps`                |
+| `psmisc`                 | `sys-process/psmisc`                |
+| `ranger`                 | `app-misc/ranger`                   |
+| `sudo`                   | `app-admin/sudo`                    |
+| `tmux`                   | `app-misc/tmux`                     |
+| `toilet`                 | `app-misc/toilet`                   |
+| `unzip`                  | `app-arch/unzip`                    |
+| `vim`                    | `app-editors/vim`                   |
+| `wget`                   | `net-misc/wget`                     |
+| `zip`                    | `app-arch/zip`                      |
 
 #### Graphical
 
-| Debian                   | Gentoo                        |
-|--------------------------|-------------------------------|
-| `chromium`               | `www-client/chromium-bin`     |
-| `firefox`                | `www-client/firefox-bin`      |
-| `keepassxc`              | `app-admin/keepassxc`         |
-| `obs-studio`             | `media-video/obs-studio`      |
-| `thunderbird`            | `mail-client/thunderbird-bin` |
-| `vlc`                    | `media-video/vlc`             |
-|                          | `net-im/discord`              |
-|                          | `net-im/element-desktop-bin`  |
-|                          | `net-im/slack`                |
-|                          | `net-im/telegram-desktop`     |
+| Debian                   | Gentoo                              |
+|--------------------------|-------------------------------------|
+|                          | `sys-apps/dbus`                     |
+|                          | `sys-auth/elogind`                  |
+|                          | `sys-auth/polkit`                   |
+|                          | `sys-block/io-scheduler-udev-rules` |
+|                          | `sys-fs/udev`                       |
+|                          | `sys-fs/udisks`                     |
+| `chromium`               | `www-client/chromium`               |
+| `firefox`                | `www-client/firefox-bin`            |
+| `keepassxc`              | `app-admin/keepassxc`               |
+| `obs-studio`             | `media-video/obs-studio`            |
+| `thunderbird`            | `mail-client/thunderbird-bin`       |
+| `vlc`                    | `media-video/vlc`                   |
+|                          | `net-im/discord`                    |
+|                          | `net-im/element-desktop-bin`        |
+|                          | `net-im/slack`                      |
+|                          | `net-im/telegram-desktop`           |
 
 ### Distro-specific
 
@@ -75,15 +86,25 @@ Other
 
 ### Gentoo
 
+#### Non-graphical
+
 ```
-rc-update add chronyd         default
-rc-update add dbus            default
-rc-update add display-manager default
-rc-update add elogind         boot
-rc-update add NetworkManager  default
-rc-update add sysklogd        default
+rc-update add chronyd  default
+rc-update add cronie   default
+rc-update add dhcpcd   default
+rc-update add sysklogd default
+```
+
+#### Graphical
+
+```
 rc-update add udev            sysinit
+rc-update add dbus            default
+rc-update add elogind         boot
+rc-update add display-manager default
 ```
+
+#### Alternatives
 
 ```
 $ sudo eselect locale list

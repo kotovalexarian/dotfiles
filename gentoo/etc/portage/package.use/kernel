@@ -1,0 +1,2 @@
+sys-fs/lvm2                  lvm
+sys-kernel/gentoo-kernel-bin initramfs

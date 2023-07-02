@@ -1,3 +1,4 @@
+install_file root root    644 '/etc/htoprc'                               common
 install_file root root    644 '/etc/tmux.conf'                            common
 echo
 install_dir  root root    755 '/etc/vim'
@@ -22,14 +23,23 @@ echo
 install_dir  root root    755 '/etc/portage/env'
 install_dir  root root    755 '/etc/portage/package.accept_keywords'
 install_dir  root root    755 '/etc/portage/package.env'
+install_dir  root root    755 '/etc/portage/package.license'
 install_dir  root root    755 '/etc/portage/package.mask'
 install_dir  root root    755 '/etc/portage/package.use'
+install_dir  root root    755 '/etc/portage/repos.conf'
 install_file root root    644 '/etc/portage/env/ccache.conf'              gentoo
 install_file root root    644 '/etc/portage/make.conf'                    gentoo
-install_file root root    644 '/etc/portage/package.license'              gentoo
-install_file root root    644 '/etc/portage/package.accept_keywords/package.accept_keywords' gentoo
+install_file root root    644 '/etc/portage/package.accept_keywords/misc' gentoo
 install_file root root    644 '/etc/portage/package.env/ccache'           gentoo
+install_file root root    644 '/etc/portage/package.license/firmware'     gentoo
+install_file root root    644 '/etc/portage/package.license/media'        gentoo
+install_file root root    644 '/etc/portage/package.license/misc'         gentoo
+install_file root root    644 '/etc/portage/package.mask/bloat'           gentoo
 install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
+install_file root root    644 '/etc/portage/package.use/desktop'          gentoo
+install_file root root    644 '/etc/portage/package.use/heavy_clients'    gentoo
+install_file root root    644 '/etc/portage/package.use/kernel'           gentoo
 install_file root root    644 '/etc/portage/package.use/toolchains'       gentoo
 install_file root root    644 '/etc/portage/package.use/zz-autounmask'    gentoo
+install_file root root    644 '/etc/portage/repos.conf/gentoo.conf'       gentoo
 fi

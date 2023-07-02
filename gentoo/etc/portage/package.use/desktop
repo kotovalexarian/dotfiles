@@ -1,0 +1,4 @@
+mate-base/mate           base bluetooth extras notification themes -help
+x11-base/xorg-server     suid
+x11-misc/lightdm         gtk -gnome -qt5
+x11-terms/gnome-terminal -gnome-shell -nautilus

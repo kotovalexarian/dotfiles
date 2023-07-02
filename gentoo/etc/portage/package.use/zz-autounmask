@@ -1,21 +1,22 @@
 # required by app-shells/fish-3.4.0::gentoo
 >=dev-libs/libpcre2-10.42-r1 pcre32
 
-# required by x11-drivers/xf86-video-vmware-13.4.0::gentoo
-# required by x11-base/xorg-drivers-21.1-r2::gentoo[video_cards_vmware]
-# required by x11-base/xorg-server-21.1.8::gentoo[xorg]
->=media-libs/mesa-22.3.7-r1 xa
+# required by www-client/firefox-102.12.0::gentoo[system-libvpx]
+>=media-libs/libvpx-1.12.0-r1 postproc
 
-# required by www-client/chromium-bin-109.0.5414.74::gentoo
->=sys-libs/zlib-1.2.13-r1 minizip
-
-# required by dev-util/gtk-doc-1.33.2::gentoo[python_single_target_python3_10]
-# required by mate-base/mate-desktop-1.26.0-r1::gentoo
-# required by mate-base/mate-panel-1.26.0-r1::gentoo
-# required by mate-base/mate-applets-1.26.0::gentoo
-# required by mate-base/mate-applets-meta-1.26.0::gentoo
-# required by mate-base/mate-1.26.0::gentoo[base]
->=dev-python/pygments-2.15.1 python_targets_python3_10
+# required by media-sound/pulseaudio-daemon-16.1-r7::gentoo[alsa,alsa-plugin]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by www-client/firefox-bin-114.0.2::gentoo[pulseaudio]
+>=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
 
 # required by net-im/telegram-desktop-4.8.1-r2::gentoo
->=media-video/ffmpeg-4.4.4-r2 vpx
+>=media-video/ffmpeg-4.4.4-r2 opus vpx
+
+# required by www-client/chromium-114.0.5735.198::gentoo
+>=net-libs/nodejs-20.2.0 inspector
+
+# required by www-client/chromium-114.0.5735.198::gentoo
+>=sys-libs/zlib-1.2.13-r1 minizip
+
+# required by x11-misc/openbox-menu-0.8.1::gentoo[icons]
+>=x11-wm/openbox-3.6.1-r5 imlib

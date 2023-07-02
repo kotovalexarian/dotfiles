@@ -1,0 +1,6 @@
+# Proprietary firmware that my computer already includes,
+# such as processor microcode.
+# Updates may fix security issues.
+
+sys-firmware/intel-microcode intel-ucode
+sys-kernel/linux-firmware    linux-fw-redistributable
