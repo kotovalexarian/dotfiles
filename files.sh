@@ -14,16 +14,21 @@ install_file root root    644 '/etc/fish/functions/rvm.fish'              common
 
 if [ "$PREFIX" = 'gentoo' ]; then
 echo
+install_file root root    644 '/etc/ccache.conf'                          gentoo
 install_file root root    644 '/etc/conf.d/display-manager'               gentoo
 install_file root root    644 '/etc/env.d/90xsession'                     gentoo
 install_file root portage 644 '/var/lib/portage/world'                    gentoo
 echo
+install_dir  root root    755 '/etc/portage/env'
 install_dir  root root    755 '/etc/portage/package.accept_keywords'
+install_dir  root root    755 '/etc/portage/package.env'
 install_dir  root root    755 '/etc/portage/package.mask'
 install_dir  root root    755 '/etc/portage/package.use'
+install_file root root    644 '/etc/portage/env/ccache.conf'              gentoo
 install_file root root    644 '/etc/portage/make.conf'                    gentoo
 install_file root root    644 '/etc/portage/package.license'              gentoo
 install_file root root    644 '/etc/portage/package.accept_keywords/package.accept_keywords' gentoo
+install_file root root    644 '/etc/portage/package.env/ccache'           gentoo
 install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
 install_file root root    644 '/etc/portage/package.use/toolchains'       gentoo
 install_file root root    644 '/etc/portage/package.use/zz-autounmask'    gentoo

@@ -7,6 +7,7 @@ Packages
 
 | Debian                   | Gentoo                        |
 |--------------------------|-------------------------------|
+|                          | `dev-util/ccache`             |
 | `bash-completion`        |                               |
 | `build-essential`        |                               |
 | `cmake`                  | `dev-util/cmake`              |
