@@ -3,4 +3,5 @@
 # Updates may fix security issues.
 
 sys-firmware/intel-microcode intel-ucode
+sys-firmware/nvidia-firmware NVIDIA-r2
 sys-kernel/linux-firmware    linux-fw-redistributable

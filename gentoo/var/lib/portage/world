@@ -50,10 +50,12 @@ net-wireless/wpa_supplicant
 sys-apps/dbus
 sys-apps/mlocate
 sys-auth/elogind
+sys-block/gparted
 sys-block/io-scheduler-udev-rules
 sys-block/parted
 sys-boot/grub
 sys-firmware/intel-microcode
+sys-firmware/nvidia-firmware
 sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/lvm2
@@ -63,8 +65,8 @@ sys-kernel/gentoo-kernel-bin
 sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
-www-client/chromium
 www-client/firefox
 x11-base/xorg-server
 x11-misc/lightdm
+x11-misc/vdpauinfo
 x11-themes/mate-themes
