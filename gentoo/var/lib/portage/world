@@ -4,6 +4,9 @@ app-admin/sudo
 app-admin/sysklogd
 app-arch/unzip
 app-arch/zip
+app-containers/docker
+app-containers/docker-cli
+app-containers/docker-compose
 app-crypt/gnupg
 app-editors/nano
 app-editors/vim
@@ -29,10 +32,12 @@ dev-vcs/git
 dev-vcs/git-lfs
 games-action/minecraft-launcher
 games-misc/cowsay
+gnome-base/gnome-keyring
 mail-client/thunderbird
 mate-base/mate
 media-fonts/font-bh-ttf
 media-fonts/fonts-meta
+media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/imagemagick
 media-libs/exiftool
@@ -40,9 +45,10 @@ media-video/ffmpeg
 media-video/libva-utils
 media-video/obs-studio
 media-video/vlc
+net-dns/bind-tools
 net-im/element-desktop-bin
-net-im/pidgin
 net-im/telegram-desktop
+net-irc/hexchat
 net-libs/nodejs
 net-misc/chrony
 net-misc/curl

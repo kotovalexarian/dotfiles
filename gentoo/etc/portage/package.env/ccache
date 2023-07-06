@@ -1,14 +1,15 @@
-dev-lang/spidermonkey   ccache.conf
-dev-qt/qtdeclarative    ccache.conf
-dev-util/cmake          ccache.conf
-mail-client/thunderbird ccache.conf
-media-libs/mesa         ccache.conf
-media-video/ffmpeg      ccache.conf
-#net-im/telegram-desktop ccache.conf # does not work
-net-libs/nodejs         ccache.conf
-sys-devel/clang         ccache.conf
-sys-devel/llvm          ccache.conf
-sys-libs/glibc          ccache.conf
-www-client/chromium     ccache.conf
-www-client/firefox      ccache.conf
-x11-libs/gtk+           ccache.conf
+app-emulation/virtualbox ccache.conf
+dev-lang/spidermonkey    ccache.conf
+dev-util/cmake           ccache.conf
+mail-client/thunderbird  ccache.conf
+media-gfx/gimp           ccache.conf
+media-libs/mesa          ccache.conf
+media-video/ffmpeg       ccache.conf
+#net-im/telegram-desktop  ccache.conf # does not work
+net-libs/nodejs          ccache.conf
+sys-devel/clang          ccache.conf
+sys-devel/llvm           ccache.conf
+sys-libs/glibc           ccache.conf
+www-client/chromium      ccache.conf
+www-client/firefox       ccache.conf
+x11-libs/gtk+            ccache.conf

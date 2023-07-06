@@ -1,0 +1,9 @@
+auth      substack  system-local-login
+auth      optional  pam_gnome_keyring.so
+
+account   substack  system-local-login
+
+password  substack  system-local-login
+
+session   substack  system-local-login
+session   optional  pam_gnome_keyring.so auto_start
