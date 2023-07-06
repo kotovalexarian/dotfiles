@@ -20,6 +20,7 @@ install_file root rott    644 '/etc/dracut.conf'                          gentoo
 echo
 install_file root root    644 '/etc/conf.d/display-manager'               gentoo
 install_file root root    644 '/etc/default/grub'                         gentoo
+install_file root root    644 '/etc/env.d/70less'                         gentoo
 install_file root root    644 '/etc/env.d/90xsession'                     gentoo
 install_file root portage 644 '/var/lib/portage/world'                    gentoo
 echo

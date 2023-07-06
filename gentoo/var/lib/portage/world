@@ -1,3 +1,4 @@
+app-admin/ansible
 app-admin/keepassxc
 app-admin/sudo
 app-admin/sysklogd
@@ -40,6 +41,7 @@ media-video/libva-utils
 media-video/obs-studio
 media-video/vlc
 net-im/element-desktop-bin
+net-im/pidgin
 net-im/telegram-desktop
 net-libs/nodejs
 net-misc/chrony
@@ -49,6 +51,7 @@ net-misc/zerotier
 net-wireless/wpa_supplicant
 sys-apps/dbus
 sys-apps/mlocate
+sys-apps/yarn
 sys-auth/elogind
 sys-block/gparted
 sys-block/io-scheduler-udev-rules
