@@ -26,6 +26,7 @@ dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
 dev-util/ccache
+dev-util/cloc
 dev-util/cmake
 dev-util/meson
 dev-util/ninja
