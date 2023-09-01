@@ -22,6 +22,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/fish
+app-text/highlight
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
@@ -47,6 +48,7 @@ media-video/ffmpeg
 media-video/libva-utils
 media-video/obs-studio
 media-video/vlc
+net-analyzer/traceroute
 net-dns/bind-tools
 net-im/element-desktop-bin
 net-im/telegram-desktop
@@ -55,6 +57,7 @@ net-libs/nodejs
 net-misc/chrony
 net-misc/curl
 net-misc/openssh
+net-misc/telnet-bsd
 net-misc/zerotier
 net-wireless/wpa_supplicant
 sys-apps/dbus
