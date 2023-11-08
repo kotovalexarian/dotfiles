@@ -40,6 +40,7 @@ install_file root root    644 '/etc/portage/package.license/firmware'     gentoo
 install_file root root    644 '/etc/portage/package.license/media'        gentoo
 install_file root root    644 '/etc/portage/package.license/misc'         gentoo
 install_file root root    644 '/etc/portage/package.mask/bloat'           gentoo
+install_file root root    644 '/etc/portage/package.mask/noupgrade'       gentoo
 install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
 install_file root root    644 '/etc/portage/package.use/desktop'          gentoo
 install_file root root    644 '/etc/portage/package.use/heavy_clients'    gentoo

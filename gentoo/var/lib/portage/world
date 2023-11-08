@@ -1,4 +1,5 @@
 app-admin/ansible
+app-admin/ansible-core
 app-admin/keepassxc
 app-admin/sudo
 app-admin/sysklogd
@@ -24,6 +25,7 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/fish
 app-text/highlight
+dev-db/redis
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
