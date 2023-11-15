@@ -47,6 +47,7 @@ media-fonts/fonts-meta
 media-gfx/gimp
 media-gfx/gnome-screenshot
 media-gfx/imagemagick
+media-gfx/zbar
 media-libs/exiftool
 media-video/cheese
 media-video/ffmpeg
