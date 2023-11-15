@@ -1,4 +1,5 @@
 >=dev-libs/libpcre2-10.42-r1            pcre32
+>=media-libs/gst-plugins-base-1.20.6    theora
 >=media-libs/libvpx-1.12.0-r1           postproc
 >=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
 >=media-video/ffmpeg-4.4.4-r2           opus vpx
