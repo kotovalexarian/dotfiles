@@ -30,6 +30,7 @@ dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
 dev-libs/libisoburn
+dev-util/android-tools
 dev-util/ccache
 dev-util/cloc
 dev-util/cmake
