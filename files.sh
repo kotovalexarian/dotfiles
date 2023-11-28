@@ -16,7 +16,7 @@ install_file root root    644 '/etc/fish/functions/rvm.fish'              common
 if [ "$PREFIX" = 'gentoo' ]; then
 echo
 install_file root root    644 '/etc/ccache.conf'                          gentoo
-install_file root rott    644 '/etc/dracut.conf'                          gentoo
+install_file root root    644 '/etc/dracut.conf'                          gentoo
 echo
 install_file root root    644 '/etc/conf.d/display-manager'               gentoo
 install_file root root    644 '/etc/default/grub'                         gentoo
@@ -39,9 +39,9 @@ install_file root root    644 '/etc/portage/package.env/ccache'           gentoo
 install_file root root    644 '/etc/portage/package.license/firmware'     gentoo
 install_file root root    644 '/etc/portage/package.license/media'        gentoo
 install_file root root    644 '/etc/portage/package.license/misc'         gentoo
+install_file root root    644 '/etc/portage/package.mask/binsrc'          gentoo
 install_file root root    644 '/etc/portage/package.mask/bloat'           gentoo
 install_file root root    644 '/etc/portage/package.mask/noupgrade'       gentoo
-install_file root root    644 '/etc/portage/package.mask/toolchains'      gentoo
 install_file root root    644 '/etc/portage/package.use/desktop'          gentoo
 install_file root root    644 '/etc/portage/package.use/heavy_clients'    gentoo
 install_file root root    644 '/etc/portage/package.use/kernel'           gentoo
