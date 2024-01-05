@@ -19,11 +19,11 @@ REPO="$(dirname "$(realpath "$0")")"
 PREFIX="${1:-''}"
 
 install_file() {
-    owner="$1"
-    group="$2"
-    mode="$3"
-    path="$4"
-    prefix="$5"
+    prefix="$1"
+    owner="$2"
+    group="$3"
+    mode="$4"
+    path="$5"
 
     echo install -b -o "$owner" -g "$group" -m "$mode" "$REPO/$prefix$path" "$path"
          install -b -o "$owner" -g "$group" -m "$mode" "$REPO/$prefix$path" "$path"

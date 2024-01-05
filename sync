@@ -16,8 +16,8 @@ install_dir() {
 }
 
 install_file() {
-    path="$4"
-    prefix="$5"
+    prefix="$1"
+    path="$5"
 
     if [ -f "$path" ]; then
         echo cp "$path" "$REPO/$prefix$path"
