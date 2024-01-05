@@ -30,6 +30,7 @@ dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
 dev-libs/libisoburn
+dev-python/pip
 dev-util/android-tools
 dev-util/ccache
 dev-util/cloc
@@ -88,6 +89,7 @@ sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
 www-client/firefox
+www-client/netsurf
 x11-base/xorg-server
 x11-misc/lightdm
 x11-misc/vdpauinfo

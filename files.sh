@@ -35,6 +35,7 @@ install_dir  root root    755 '/etc/portage/repos.conf'
 install_file root root    644 '/etc/portage/env/ccache.conf'              gentoo
 install_file root root    644 '/etc/portage/make.conf'                    gentoo
 install_file root root    644 '/etc/portage/package.accept_keywords/misc' gentoo
+install_file root root    644 '/etc/portage/package.accept_keywords/netsurf' gentoo
 install_file root root    644 '/etc/portage/package.env/ccache'           gentoo
 install_file root root    644 '/etc/portage/package.license/firmware'     gentoo
 install_file root root    644 '/etc/portage/package.license/media'        gentoo
