@@ -89,7 +89,6 @@ sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
 www-client/firefox
-www-client/netsurf
 x11-base/xorg-server
 x11-misc/lightdm
 x11-misc/vdpauinfo

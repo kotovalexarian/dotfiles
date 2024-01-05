@@ -1,8 +1,0 @@
-dev-libs/libcss       ~amd64
-dev-libs/libnsutils   ~amd64
-dev-libs/libwapcaplet ~amd64
-dev-libs/nsgenbind    ~amd64
-media-libs/libnspsl   ~amd64
-media-libs/libsvgtiny ~amd64
-net-libs/libdom       ~amd64
-www-client/netsurf    ~amd64
