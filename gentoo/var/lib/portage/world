@@ -13,6 +13,7 @@ app-editors/nano
 app-editors/vim
 app-emulation/qemu
 app-emulation/virtualbox
+app-eselect/eselect-repository
 app-misc/colordiff
 app-misc/figlet
 app-misc/neofetch
@@ -89,6 +90,9 @@ sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
 www-client/firefox
+www-client/links
+www-client/lynx
+www-client/w3m
 x11-base/xorg-server
 x11-misc/lightdm
 x11-misc/vdpauinfo
