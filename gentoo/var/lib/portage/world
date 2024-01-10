@@ -30,6 +30,7 @@ dev-db/redis
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
+dev-libs/cyrus-sasl
 dev-libs/libisoburn
 dev-python/pip
 dev-util/android-tools
@@ -68,6 +69,7 @@ net-misc/curl
 net-misc/openssh
 net-misc/telnet-bsd
 net-misc/zerotier
+net-nds/openldap
 net-wireless/wpa_supplicant
 sys-apps/dbus
 sys-apps/mlocate
