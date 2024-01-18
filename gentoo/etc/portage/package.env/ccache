@@ -1,6 +1,6 @@
 app-emulation/virtualbox ccache.conf
 dev-lang/spidermonkey    ccache.conf
-dev-util/cmake           ccache.conf
+dev-build/cmake          ccache.conf
 mail-client/thunderbird  ccache.conf
 media-gfx/gimp           ccache.conf
 media-libs/mesa          ccache.conf

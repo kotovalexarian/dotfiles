@@ -26,6 +26,9 @@ app-portage/gentoolkit
 app-portage/mirrorselect
 app-shells/fish
 app-text/highlight
+dev-build/cmake
+dev-build/meson
+dev-build/ninja
 dev-db/redis
 dev-lang/python
 dev-lang/ruby
@@ -36,9 +39,6 @@ dev-python/pip
 dev-util/android-tools
 dev-util/ccache
 dev-util/cloc
-dev-util/cmake
-dev-util/meson
-dev-util/ninja
 dev-vcs/git
 dev-vcs/git-lfs
 games-action/minecraft-launcher

@@ -16,7 +16,7 @@ Packages
 |                          | `sys-process/cronie`                |
 | `bash-completion`        |                                     |
 | `build-essential`        |                                     |
-| `cmake`                  | `dev-util/cmake`                    |
+| `cmake`                  | `dev-build/cmake`                   |
 | `curl`                   | `net-misc/curl`                     |
 | `colordiff`              | `app-misc/colordiff`                |
 | `cowsay`                 | `games-misc/cowsay`                 |
@@ -30,9 +30,9 @@ Packages
 | `less`                   | `sys-apps/less`                     |
 | `libimage-exiftool-perl` | `media-libs/exiftool`               |
 | `lolcat`                 |                                     |
-| `meson`                  | `dev-util/meson`                    |
+| `meson`                  | `dev-build/meson`                   |
 | `neofetch`               | `app-misc/neofetch`                 |
-| `ninja-build`            | `dev-util/ninja`                    |
+| `ninja-build`            | `dev-build/ninja`                   |
 | `procps`                 | `sys-process/procps`                |
 | `psmisc`                 | `sys-process/psmisc`                |
 | `ranger`                 | `app-misc/ranger`                   |
