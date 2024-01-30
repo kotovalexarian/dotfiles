@@ -60,8 +60,6 @@ media-video/obs-studio
 media-video/vlc
 net-analyzer/traceroute
 net-dns/bind-tools
-net-im/element-desktop-bin
-net-im/telegram-desktop
 net-irc/hexchat
 net-libs/nodejs
 net-misc/chrony

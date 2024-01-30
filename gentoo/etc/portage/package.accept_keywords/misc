@@ -1,5 +1,4 @@
 games-action/minecraft-launcher ~amd64
 media-video/obs-studio          ~amd64
-net-im/element-desktop-bin      ~amd64
 net-misc/zerotier               ~amd64
 sys-firmware/nvidia-firmware    ~amd64

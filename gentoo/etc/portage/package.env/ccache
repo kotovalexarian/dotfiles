@@ -5,7 +5,6 @@ mail-client/thunderbird  ccache.conf
 media-gfx/gimp           ccache.conf
 media-libs/mesa          ccache.conf
 media-video/ffmpeg       ccache.conf
-#net-im/telegram-desktop  ccache.conf # does not work
 net-libs/nodejs          ccache.conf
 sys-devel/clang          ccache.conf
 sys-devel/llvm           ccache.conf

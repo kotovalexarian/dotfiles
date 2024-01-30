@@ -60,10 +60,6 @@ Packages
 | `obs-studio`             | `media-video/obs-studio`            |
 | `thunderbird`            | `mail-client/thunderbird-bin`       |
 | `vlc`                    | `media-video/vlc`                   |
-|                          | `net-im/discord`                    |
-|                          | `net-im/element-desktop-bin`        |
-|                          | `net-im/slack`                      |
-|                          | `net-im/telegram-desktop`           |
 
 ### Distro-specific
 
