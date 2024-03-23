@@ -8,6 +8,7 @@ app-arch/zip
 app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
+app-crypt/age
 app-crypt/gnupg
 app-editors/nano
 app-editors/vim
@@ -29,13 +30,17 @@ app-text/highlight
 dev-build/cmake
 dev-build/meson
 dev-build/ninja
+dev-db/postgresql
 dev-db/redis
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
+dev-libs/boost
 dev-libs/cyrus-sasl
 dev-libs/libisoburn
 dev-python/pip
+dev-qt/qt5compat
+dev-qt/qtmultimedia
 dev-util/android-tools
 dev-util/ccache
 dev-util/cloc
@@ -69,6 +74,7 @@ net-misc/telnet-bsd
 net-misc/zerotier
 net-nds/openldap
 net-wireless/wpa_supplicant
+sci-visualization/gnuplot
 sys-apps/dbus
 sys-apps/mlocate
 sys-apps/yarn
@@ -86,9 +92,11 @@ sys-fs/mtools
 sys-fs/udev
 sys-kernel/dracut
 sys-kernel/gentoo-kernel-bin
+sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-process/cronie
 sys-process/htop
+sys-process/lsof
 www-client/firefox
 www-client/links
 www-client/lynx
