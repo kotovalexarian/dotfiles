@@ -23,6 +23,7 @@ install_file gentoo root root    644 '/etc/default/grub'
 install_file gentoo root root    644 '/etc/env.d/70less'
 install_file gentoo root root    644 '/etc/env.d/90xsession'
 install_file gentoo root root    644 '/etc/pam.d/lightdm'
+install_file gentoo root root    644 '/etc/profile.d/less.sh'
 install_file gentoo root portage 644 '/var/lib/portage/world'
 echo
 install_dir         root root    755 '/etc/portage/env'
