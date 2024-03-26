@@ -1,5 +1,6 @@
 app-admin/ansible
 app-admin/ansible-core
+app-admin/eclean-kernel
 app-admin/keepassxc
 app-admin/sudo
 app-admin/sysklogd
