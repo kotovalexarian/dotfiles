@@ -75,6 +75,7 @@ net-misc/chrony
 net-misc/curl
 net-misc/openssh
 net-misc/telnet-bsd
+net-misc/yt-dlp
 net-misc/zerotier
 net-nds/openldap
 net-wireless/wpa_supplicant

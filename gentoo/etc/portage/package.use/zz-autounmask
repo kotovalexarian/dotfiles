@@ -2,6 +2,7 @@
 >=dev-python/PyQt5-5.15.10-r1           sql
 >=dev-python/QtPy-2.4.1-r1              printsupport
 >=media-libs/gst-plugins-base-1.20.6    theora
+>=media-libs/libpng-1.6.43              apng
 >=media-libs/libvpx-1.12.0-r1           postproc
 >=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
 >=media-video/ffmpeg-4.4.4-r2           opus vpx
