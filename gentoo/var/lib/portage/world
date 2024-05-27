@@ -74,6 +74,7 @@ net-libs/nodejs
 net-misc/chrony
 net-misc/curl
 net-misc/openssh
+net-misc/rclone
 net-misc/telnet-bsd
 net-misc/yt-dlp
 net-misc/zerotier
@@ -84,6 +85,7 @@ sys-apps/dbus
 sys-apps/mlocate
 sys-apps/yarn
 sys-auth/elogind
+sys-auth/oath-toolkit
 sys-block/gparted
 sys-block/io-scheduler-udev-rules
 sys-block/parted

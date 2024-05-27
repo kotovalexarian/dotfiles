@@ -1,2 +1,7 @@
+media-libs/gst-plugins-base theora
+media-libs/libpng           apng
+media-libs/libvpx           postproc
+media-video/ffmpeg          opus vpx
+
 mail-client/thunderbird system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-png system-python-libs system-rnp system-webp
 www-client/firefox      system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-png system-python-libs            system-webp
