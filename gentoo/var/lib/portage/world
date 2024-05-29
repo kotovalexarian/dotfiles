@@ -73,6 +73,7 @@ net-irc/hexchat
 net-libs/nodejs
 net-misc/chrony
 net-misc/curl
+net-misc/electrum
 net-misc/openssh
 net-misc/rclone
 net-misc/telnet-bsd

@@ -1,5 +1,6 @@
 >=dev-libs/libpcre2-10.42-r1  pcre32
 >=dev-python/PyQt5-5.15.10-r1 sql
 >=dev-python/QtPy-2.4.1-r1    printsupport
+>=net-misc/electrum-4.5.4     -python_targets_python3_12
 >=sys-libs/zlib-1.2.13-r1     minizip
 >=x11-wm/openbox-3.6.1-r5     imlib
