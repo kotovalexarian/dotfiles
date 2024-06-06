@@ -1,0 +1,10 @@
+app-emulation/vagrant                   ~amd64
+dev-ruby/google-protobuf                ~amd64
+dev-ruby/googleapis-common-protos-types ~amd64
+dev-ruby/grpc                           ~amd64
+dev-ruby/hashicorp-checkpoint           ~amd64
+dev-ruby/ipaddr                         ~amd64
+dev-ruby/pairing_heap                   ~amd64
+dev-ruby/rgl                            ~amd64
+dev-ruby/stream                         ~amd64
+dev-ruby/vagrant_cloud                  ~amd64
