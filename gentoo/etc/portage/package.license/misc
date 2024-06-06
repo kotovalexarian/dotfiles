@@ -1,4 +1,3 @@
-app-emulation/vagrant           BUSL-1.1
-games-action/minecraft-launcher Mojang
-net-misc/zerotier               BUSL-1.1
-x11-drivers/nvidia-drivers      NVIDIA-r2
+app-emulation/vagrant      BUSL-1.1
+net-misc/zerotier          BUSL-1.1
+x11-drivers/nvidia-drivers NVIDIA-r2

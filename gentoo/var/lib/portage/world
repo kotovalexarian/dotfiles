@@ -52,7 +52,6 @@ dev-util/ccache
 dev-util/cloc
 dev-vcs/git
 dev-vcs/git-lfs
-games-action/minecraft-launcher
 games-misc/cowsay
 gnome-base/gnome-keyring
 mail-client/thunderbird
