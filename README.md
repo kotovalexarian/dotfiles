@@ -11,7 +11,6 @@ Packages
 |                          | `dev-util/ccache`                   |
 |                          | `net-misc/chronyd`                  |
 |                          | `net-misc/dhcpcd`                   |
-|                          | `net-misc/zerotier`                 |
 |                          | `sys-apps/mlocate`                  |
 |                          | `sys-process/cronie`                |
 | `bash-completion`        |                                     |

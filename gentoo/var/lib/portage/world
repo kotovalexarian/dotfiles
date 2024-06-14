@@ -79,7 +79,6 @@ net-misc/openssh
 net-misc/rclone
 net-misc/telnet-bsd
 net-misc/yt-dlp
-net-misc/zerotier
 net-nds/openldap
 net-wireless/wpa_supplicant
 sci-visualization/gnuplot
