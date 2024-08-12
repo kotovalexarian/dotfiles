@@ -8,7 +8,6 @@ Packages
 | Debian                   | Gentoo                              |
 |--------------------------|-------------------------------------|
 |                          | `app-admin/sysklogd`                |
-|                          | `dev-util/ccache`                   |
 |                          | `net-misc/chronyd`                  |
 |                          | `net-misc/dhcpcd`                   |
 |                          | `sys-apps/mlocate`                  |

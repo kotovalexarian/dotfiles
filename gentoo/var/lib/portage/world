@@ -48,7 +48,6 @@ dev-python/pip
 dev-qt/qt5compat
 dev-qt/qtmultimedia
 dev-util/android-tools
-dev-util/ccache
 dev-util/cloc
 dev-vcs/git
 dev-vcs/git-lfs

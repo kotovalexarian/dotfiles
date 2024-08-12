@@ -15,7 +15,6 @@ install_file common root root    644 '/etc/fish/functions/rvm.fish'
 
 if [ "$PREFIX" = 'gentoo' ]; then
 echo
-install_file gentoo root root    644 '/etc/ccache.conf'
 install_file gentoo root root    644 '/etc/dracut.conf'
 echo
 install_file gentoo root root    644 '/etc/conf.d/display-manager'
@@ -26,18 +25,14 @@ install_file gentoo root root    644 '/etc/pam.d/lightdm'
 install_file gentoo root root    644 '/etc/profile.d/less.sh'
 install_file gentoo root portage 644 '/var/lib/portage/world'
 echo
-install_dir         root root    755 '/etc/portage/env'
 install_dir         root root    755 '/etc/portage/package.accept_keywords'
-install_dir         root root    755 '/etc/portage/package.env'
 install_dir         root root    755 '/etc/portage/package.license'
 install_dir         root root    755 '/etc/portage/package.mask'
 install_dir         root root    755 '/etc/portage/package.use'
 install_dir         root root    755 '/etc/portage/repos.conf'
-install_file gentoo root root    644 '/etc/portage/env/ccache.conf'
 install_file gentoo root root    644 '/etc/portage/make.conf'
 install_file gentoo root root    644 '/etc/portage/package.accept_keywords/misc'
 install_file gentoo root root    644 '/etc/portage/package.accept_keywords/vagrant'
-install_file gentoo root root    644 '/etc/portage/package.env/ccache'
 install_file gentoo root root    644 '/etc/portage/package.license/firmware'
 install_file gentoo root root    644 '/etc/portage/package.license/media'
 install_file gentoo root root    644 '/etc/portage/package.license/misc'
