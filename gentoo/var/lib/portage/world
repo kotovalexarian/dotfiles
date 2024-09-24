@@ -53,7 +53,9 @@ dev-vcs/git
 dev-vcs/git-lfs
 games-misc/cowsay
 gnome-base/gnome-keyring
+mail-client/neomutt
 mail-client/thunderbird
+mail-filter/sieve-connect
 mate-base/mate
 media-fonts/font-bh-ttf
 media-fonts/fonts-meta
