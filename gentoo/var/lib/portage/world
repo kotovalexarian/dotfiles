@@ -15,7 +15,6 @@ app-crypt/gnupg
 app-editors/nano
 app-editors/vim
 app-emulation/qemu
-app-emulation/vagrant
 app-emulation/virtualbox
 app-eselect/eselect-repository
 app-misc/colordiff
@@ -38,6 +37,7 @@ dev-build/meson
 dev-build/ninja
 dev-db/postgresql
 dev-db/redis
+dev-lang/php
 dev-lang/python
 dev-lang/ruby
 dev-lang/rust-bin
