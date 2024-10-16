@@ -11,6 +11,7 @@ app-containers/docker
 app-containers/docker-cli
 app-containers/docker-compose
 app-crypt/age
+app-crypt/easy-rsa
 app-crypt/gnupg
 app-editors/nano
 app-editors/vim
@@ -47,6 +48,7 @@ dev-libs/libisoburn
 dev-python/pip
 dev-qt/qt5compat
 dev-qt/qtmultimedia
+dev-util/abootimg
 dev-util/android-tools
 dev-util/cloc
 dev-vcs/git
