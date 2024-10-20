@@ -78,6 +78,12 @@ so they are not in `/var/lib/portage/world`:
 Other
 -----
 
+### OpenBSD
+
+```
+doas ln -s /etc /usr/local/etc
+```
+
 ### Gentoo
 
 #### Non-graphical
