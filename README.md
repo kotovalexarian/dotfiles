@@ -82,7 +82,7 @@ Other
 
 ```
 doas ln -s /etc /usr/local/etc
-doas pkg_add curl fish htop neofetch vim
+doas pkg_add curl fish htop neofetch vim wget
 doas pkg_add git p5-Net-SMTP-SSL p5-Authgen-SASL
 doas pkg_add dbus
 doas pkg_add mate mate-extras
