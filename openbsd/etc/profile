@@ -1,0 +1,5 @@
+for f in /etc/profile.d/*.sh; do
+	if [ -f "$f" -a -r "$f" ]; then
+		. "$f"
+	fi
+done
