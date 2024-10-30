@@ -54,6 +54,7 @@ fi
 if [ "$PREFIX" = 'openbsd' ]; then
 echo
 install_file openbsd root wheel      644 '/etc/man.conf'
+install_file openbsd root wheel      644 '/etc/pf.conf'
 install_dir          root wheel      755 '/etc/profile.d'
 install_file openbsd root wheel      644 '/etc/profile.d/autotools.sh'
 install_file openbsd root wheel      644 '/etc/shells'
