@@ -16,6 +16,7 @@ endif
 set ignorecase
 " Makes search act like search in modern browsers
 set incsearch
+map <C-n> :noh<CR>
 
 syntax on
 
