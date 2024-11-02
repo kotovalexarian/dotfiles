@@ -19,6 +19,16 @@ install_file common  root $ROOTWHEEL 644 '/etc/fish/functions/fish_prompt.fish'
 install_file common  root $ROOTWHEEL 644 '/etc/fish/functions/prompt_user_host.fish'
 install_file common  root $ROOTWHEEL 644 '/etc/fish/functions/rvm.fish'
 
+# GNU
+if [ "$PREFIX" = 'gentoo' ]; then
+install_file gnu     root root       644 '/etc/fish/conf.d/ls.fish'
+fi
+
+# *BSD
+if [ "$PREFIX" = 'openbsd' ]; then
+install_file bsd     root $ROOTWHEEL 644 '/etc/fish/conf.d/ls.fish'
+fi
+
 if [ "$PREFIX" = 'gentoo' ]; then
 echo
 install_file gentoo  root root       644 '/etc/dracut.conf'
