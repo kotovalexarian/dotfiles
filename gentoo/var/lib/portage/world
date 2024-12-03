@@ -39,7 +39,6 @@ dev-build/cmake
 dev-build/meson
 dev-build/ninja
 dev-db/postgresql
-dev-db/redis
 dev-lang/php
 dev-lang/python
 dev-lang/ruby
