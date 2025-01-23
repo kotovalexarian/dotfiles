@@ -1,1 +1,3 @@
+dev-lang/php      curl mysql pdo sqlite xmlreader xmlwriter
 dev-lang/rust-bin clippy rust-analyzer rust-src rustfmt
+net-libs/nodejs   npm
