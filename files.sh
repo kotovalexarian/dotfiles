@@ -32,6 +32,7 @@ fi
 if [ "$PREFIX" = 'gentoo' ]; then
 echo
 install_file gentoo  root root       644 '/etc/dracut.conf'
+install_file gentoo  root root       644 '/etc/locale.gen'
 echo
 install_file gentoo  root root       644 '/etc/conf.d/display-manager'
 install_file gentoo  root root       644 '/etc/default/grub'
