@@ -55,7 +55,6 @@ Packages
 | `chromium`               | `www-client/chromium`               |
 | `firefox`                | `www-client/firefox-bin`            |
 | `keepassxc`              | `app-admin/keepassxc`               |
-| `obs-studio`             | `media-video/obs-studio`            |
 | `thunderbird`            | `mail-client/thunderbird-bin`       |
 | `vlc`                    | `media-video/vlc`                   |
 

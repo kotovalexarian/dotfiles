@@ -69,7 +69,6 @@ media-libs/exiftool
 media-video/cheese
 media-video/ffmpeg
 media-video/libva-utils
-media-video/obs-studio
 media-video/vlc
 net-analyzer/traceroute
 net-dns/bind-tools
