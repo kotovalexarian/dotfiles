@@ -72,7 +72,6 @@ media-video/libva-utils
 media-video/vlc
 net-analyzer/traceroute
 net-dns/bind-tools
-net-irc/hexchat
 net-libs/nodejs
 net-misc/chrony
 net-misc/curl
