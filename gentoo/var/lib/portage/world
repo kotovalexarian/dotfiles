@@ -71,7 +71,7 @@ media-video/ffmpeg
 media-video/libva-utils
 media-video/vlc
 net-analyzer/traceroute
-net-dns/bind-tools
+net-dns/bind
 net-libs/nodejs
 net-misc/chrony
 net-misc/curl
