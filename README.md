@@ -86,7 +86,7 @@ doas pkg_add git p5-Net-SMTP-SSL p5-Authgen-SASL
 doas pkg_add dbus
 doas pkg_add xdg-utils
 doas pkg_add mate mate-extras
-doas pkg_add firefox keepassxc lagrange
+doas pkg_add keepassxc lagrange qutebrowser
 doas rcctl enable apmd messagebus
 ```
 
