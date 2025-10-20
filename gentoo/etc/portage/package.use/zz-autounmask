@@ -1,6 +1,7 @@
 >=dev-libs/libdbusmenu-16.04.0-r2 gtk3
 >=dev-libs/libpcre2-10.42-r1      pcre32
 >=dev-python/pyqt5-5.15.10-r1     sql
+>=dev-python/pyqt6-6.9.1          quick multimedia
 >=dev-python/QtPy-2.4.1-r1        printsupport
 >=sys-libs/zlib-1.2.13-r1         minizip
 >=x11-wm/openbox-3.6.1-r5         imlib

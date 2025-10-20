@@ -38,6 +38,7 @@ dev-build/cmake
 dev-build/meson
 dev-build/ninja
 dev-db/postgresql
+dev-lang/go
 dev-lang/php
 dev-lang/python
 dev-lang/ruby
@@ -81,7 +82,6 @@ net-misc/rclone
 net-misc/telnet-bsd
 net-misc/yt-dlp
 net-nds/openldap
-net-p2p/syncthing
 net-wireless/wpa_supplicant
 sci-visualization/gnuplot
 sys-apps/dbus
