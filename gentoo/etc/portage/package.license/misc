@@ -1,1 +1,19 @@
+##
+# Proprietary firmware that my computer already includes,
+# such as processor microcode.
+# Updates may fix security issues.
+#
+sys-firmware/intel-microcode intel-ucode
+sys-firmware/nvidia-firmware NVIDIA-r2
+sys-kernel/linux-firmware    linux-fw-redistributable
+
+##
+# Proprietary video drivers have no good alternatives.
+#
 x11-drivers/nvidia-drivers NVIDIA-r2 NVIDIA-2023 NVIDIA-2025
+
+##
+# Proprietary media assets that are harmless:
+# fonts, images, sounds, videos.
+#
+media-fonts/font-bh-ttf bh-luxi
