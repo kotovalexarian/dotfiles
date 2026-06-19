@@ -52,6 +52,7 @@ install_file gentoo  root root       644 '/etc/portage/package.accept_keywords/m
 install_file gentoo  root root       644 '/etc/portage/package.license/misc'
 install_file gentoo  root root       644 '/etc/portage/package.mask/binsrc'
 install_file gentoo  root root       644 '/etc/portage/package.mask/bloat'
+install_file gentoo  root root       644 '/etc/portage/package.mask/nvidia'
 install_file gentoo  root root       644 '/etc/portage/package.use/desktop'
 install_file gentoo  root root       644 '/etc/portage/package.use/emul'
 install_file gentoo  root root       644 '/etc/portage/package.use/kernel'
